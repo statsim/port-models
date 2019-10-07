@@ -1,0 +1,22 @@
+{
+  "model": {
+    "name": "factorial",
+    "type": "function",
+    "description": "Javascript function that computes factorial. Nothing special",
+    "container": "args",
+    "url": "factorial.js",
+    "autorun": true
+  },
+  "inputs": [
+    {
+      "type": "int",
+      "min": 0
+    }
+  ],
+  "outputs": [
+    {
+      "type": "int"
+    }
+  ]
+}
+

@@ -1,0 +1,20 @@
+{
+  "model": {
+    "name": "pyselection",
+    "type": "py",
+    "description": "Load Pyboruta and run feature selection",
+    "container": "object",
+    "url": "pyselection.py"
+  },
+  "inputs": [
+    { 
+      "type": "string",
+      "name": "target"
+    },
+    {
+      "type": "file",
+      "name": "csv"
+    }
+  ]
+}
+

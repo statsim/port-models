@@ -1,0 +1,30 @@
+{
+  "model": {
+    "name": "Sentiment",
+    "type": "class",
+    "method": "analyze",
+    "description": "AFINN-based sentiment analysis",
+    "container": "args",
+    "url": "sentiment.js"
+  },
+  "inputs": [
+    {
+      "type": "text"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "score",
+      "type": "int"
+    },
+    {
+      "name": "positive",
+      "type": "array"
+    },
+    {
+      "name": "negative",
+      "type": "array"
+    }
+  ]
+}
+

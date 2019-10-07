@@ -1,0 +1,21 @@
+{
+  "model": {
+    "name": "csv",
+    "type": "function",
+    "description": "CSV file check",
+    "container": "args",
+    "url": "csv.js"
+  },
+  "inputs": [
+    {
+      "type": "file"
+    }
+  ],
+  "outputs": [
+    {
+      "type": "file",
+      "filename": "output.json"
+    }
+  ]
+}
+
