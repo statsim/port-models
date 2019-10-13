@@ -3,9 +3,14 @@
     "name": "Sentiment",
     "type": "class",
     "method": "analyze",
+    "title": "Sentiment analysis",
     "description": "AFINN-based sentiment analysis",
     "container": "args",
     "url": "sentiment.js"
+  },
+  "design": {
+    "layout": "sidebar",
+    "colors": "light"
   },
   "inputs": [
     {

@@ -1,0 +1,20 @@
+{
+  "model": {
+    "name": "QRCode",
+    "type": "function",
+    "title": "QR Code generator",
+    "description": "Fast customizable QR code generator. Based on the pure-svg-code package ",
+    "container": "object",
+    "url": "qrcode.js",
+    "autorun": true
+  },
+  "inputs": [
+    { "name": "content", "type": "text", "default": "https://statsim.com" },
+    { "name": "size", "type": "int" },
+    { "name": "color", "type": "string" }
+  ],
+  "outputs": [
+    { "name": "qrcode", "type": "svg" }
+  ]
+}
+
