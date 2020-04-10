@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "class",
+    "name": "Spurious",
+    "method": "run",
+    "url": "spurious.js",
+    "worker": false
+  },
+  "design": {
+    "layout": "sidebar",
+    "colors": "light"
+  },
+  "inputs": [
+    {
+      "name": "n",
+      "type": "int",
+      "min": 10,
+      "max": 10000,
+      "default": 1000
+    }
+  ]
+}
+
